@@ -4,9 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc p .",
+    "build": "tsc -p .",
     "start": "node dist/index.js",
-    "prepublishOnly": "tsc && npm ci"
+    "prepublishOnly": "tsc -p ."
   },
   "author": "",
   "license": "ISC",
